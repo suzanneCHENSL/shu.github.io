@@ -1,0 +1,200 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	/*padding: 0;*/
+	margin: 0;
+	list-style-type:none;
+	}
+a,img {
+	outline: none;/* for Firefox */
+    hlbr:expression(this.onFocus=this.blur()); /* for IE */	
+	}
+input,textarea{outline:none} /*消除chrome黃色框*/
+textarea{resize:none} /*不要縮放*/	
+img, div {border:0px;}
+a:link {
+	color: #ff8400;
+	text-decoration:none;
+}
+a:visited {
+	text-decoration:none;
+	color:#ff8400;
+}
+a:hover {
+	text-decoration: none;
+	color: #d23100;
+}
+a:active {
+	text-decoration: none;
+	color: #ff8400;
+}
+html{font-size:75%;}
+body{
+	font-size:1rem;
+	word-wrap:break-word;
+	font-family:Arial,'Noto Sans TC','微軟正黑體',sans-serif;
+	/**/
+	background-color:#000;
+	}
+*{	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+.tas{
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	}
+/**/
+/* loading */
+#loo{
+	/*position:absolute;
+	width:50px;*//*32*/
+	/*height:50px;
+	left:50%;
+	top: 50%;
+	margin-left:-25px;
+	margin-top: -25px;
+	background-color: #000;
+	background-image: url(../images/loading.gif);
+	border-radius:99px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	overflow:hidden;*/
+}
+#bacc{
+	width:100%;
+	height:100%;
+	position: fixed;
+	z-index:20;
+	background-color:rgba(0,0,0,1);/*.9*/
+	}
+.load {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 11;
+  background-color: #295a61;
+  background-attachment: scroll;
+  background-image: url(../images/1od.png),url(../images/loading.gif);
+  background-repeat: no-repeat,no-repeat;
+  background-position: 50% 50%,50% 50%;
+  background-size: 199px auto,50px auto;
+  top: 0;
+  left: 0;
+}
+/*版宣*/
+#cy{
+	position:relative;
+	padding: 20px 0 18px 0;
+	font-size: 0.916rem;/*0.916*/
+	line-height: 1.3rem;
+	color: #d2d2d2;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	background-image: url(../images/cs1.jpg);
+	background-color:#000;
+	margin:0 auto;
+	/*z-index:2;*/
+	}
+#cy > div{
+	width:990px;
+	margin:0 auto;
+	}
+#cy div span,#cy div img{
+	display:inline-block;
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	}
+#cy div span{text-align:left;}
+.tg{height:44px;overflow:hidden;padding:10px 0 0;}
+.tg2{line-height:1.5rem;color:#898484;padding:0 0 0 5px;}
+.cyou{}
+.gf{}
+.grading{float:right;}
+
+/**/			
+@media only screen and (max-width:1400px){
+/**/
+}
+@media only screen and (max-width:1000px){	
+/*版宣*/
+#cy > div{width:99%;}
+	
+}
+@media only screen and (max-width:800px){
+/**/
+#cy > div{ padding-bottom:30px;}
+
+}
+@media only screen and (max-width:750px){
+/*版宣*/
+#cy{padding:20px 10px 18px 10px;text-align:center;}
+#cy div span{text-align:center;padding:10px 0 0 0;height:auto; display:block;}
+.cyou,.gf,.grading{height:40px;}
+.grading{float:none;}
+}
+@media only screen and (max-width:630px){
+/**/
+
+
+}
+@media only screen and (max-width:580px){
+	
+}
+@media only screen and (max-width:560px){
+/*版宣*/
+#cy div span{text-align:left;padding:10px 5px 0 5px;}
+}
+@media only screen and (max-width:450px){
+/*版宣*/
+.grading{ margin-left:5px; margin-right:17px;}
+}
+@media only screen and (max-width:380px){
+/**/
+}
+@media only screen and (max-width:360px){
+/*版宣*/
+.cyou,.gf,.grading{height:35px;}
+#cy{padding:18px 1px 18px 1px;}
+}
+@media only screen and (max-width:320px){
+/**/
+
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.fir{
+	animation:fadeInRight .6s ease;
+	animation-fill-mode:forwards;
+	-webkit-animation:fadeInRight .6s ease;
+	-webkit-animation-fill-mode:forwards;
+}
+
+@keyframes brilla {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: .9;
+    }
+}

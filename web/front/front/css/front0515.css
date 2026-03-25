@@ -1,0 +1,522 @@
+﻿@charset "utf-8";
+body{
+	margin: 0px;
+	height: 100%;
+	background-color: #000;
+	overflow: hidden;
+}
+
+#mask{
+	background-color:#000;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	z-index: 50;
+	}
+#wrapper {
+	width: 100%;
+	min-width:1000px;
+	min-height:600px;
+	position: relative;
+}
+#container{
+	width: 1000px;
+	margin:0 auto;	
+}
+
+#LOGO{
+	height: 510px;
+	width: 310px;
+	float:right;
+	position: absolute;
+	margin-top:70px;
+	margin-left:760px;
+	/*background-color:#0FF;*/
+	z-index: 30;	
+}
+.M0 a{
+	display:block;
+	width:310px;
+	height:175px;
+	margin-top:0px;
+	margin-left:0px;
+	background-image:url(../images/logoM0.png);
+	text-indent:-9999px;
+}
+.M0 a:hover{
+    background-image:url(../images/logoM0.png);
+}
+.M1 a{
+	display:block;
+	width:200px;
+	height:65px;
+	margin-top:0px;
+	margin-left:70px;
+	background-image:url(../images/logoM1.png);
+	text-indent:-9999px;
+}
+.M1 a:hover{
+    background-image:url(../images/logoM01.png);
+}
+.M2 a{
+	display:block;
+	width:200px;
+	height:46px;
+	margin-top:0px;
+	margin-left:70px;
+	background-image:url(../images/logoM2.png);
+	text-indent:-9999px;
+}
+.M2 a:hover{
+    background-image:url(../images/logoM02.png);
+}
+.M3{
+	display:block;
+	width:200px;
+	height:50px;
+	margin-top:0px;
+	margin-left:70px;
+	background-image:url(../images/logoM3.png);
+	text-indent:-9999px;
+}
+.M4 a{
+	display:block;
+	width:200px;
+	height:42px;
+	margin-top:0px;
+	margin-left:70px;
+	background-image:url(../images/logoM4.png);
+	text-indent:-9999px;
+}
+.M4 a:hover{
+    background-image:url(../images/logoM04.png);
+}
+.M5 a{
+	display:block;
+	width:200px;
+	height:42px;
+	margin-top:0px;
+	margin-left:70px;
+	background-image:url(../images/logoM5.png);
+	text-indent:-9999px;
+}
+.M5 a:hover{
+    background-image:url(../images/logoM05.png);
+}
+.M6 a{
+	display:block;
+	width:200px;
+	height:42px;
+	margin-top:0px;
+	margin-left:70px;
+	background-image:url(../images/logoM6.png);
+	text-indent:-9999px;
+}
+.M6 a:hover{
+    background-image:url(../images/logoM06.png);
+}
+.M7 a{
+	display:block;
+	width:200px;
+	height:42px;
+	margin-top:0px;
+	margin-left:70px;
+	background-image:url(../images/logoM7.png);
+	text-indent:-9999px;
+}
+.M7 a:hover{
+    background-image:url(../images/logoM07.png);
+}
+
+
+
+/*討論區*/
+#forum{	
+	height: 50px;
+	width: 1100px;
+	z-index: 15;
+	position: absolute;
+}
+#link{
+	background-repeat: no-repeat;
+	float:right;
+	height: 30px;
+	width: 330px;
+	margin-top: 4px;
+	margin-right: 240px;
+	line-height: 10px;
+}
+#link ul li a{
+	float: left;
+	text-indent:-9999px;
+}
+#forum .IND_FB{
+	float:right;
+	position:absolute;
+	width:120px;
+	height:49px;
+	margin-left:845px;
+	z-index: 20;
+	
+}
+#forum .IND_GOOD{
+	float:right;
+	position:absolute;
+	width:140px;
+	height:49px;
+	margin-left:955px;
+	z-index: 20;
+}
+
+#forum .likeImage{
+	float:right;
+    width: 140px;
+    height: 49px;
+    background-image: url(../images/index_GOOD2.png);
+    background-repeat: no-repeat;
+	z-index: 25;
+	position:static;
+}
+#forum .likeImage iframe{
+	opacity: 10;
+	position:absolute;
+	top:10px;
+	left:41px;
+}
+iframe{width:0}
+
+
+/*menu下方改版活動選單*/
+#menu{
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	float: right;
+	height: 260px;
+	width: 237px;
+	position: absolute;
+	z-index: 15;
+	clear: right;
+	top: 240px;
+	right: 0px;
+	background-position: center top;
+}
+#btn_home a{
+	float: left;
+	height: 36px;
+	width: 180px;	
+	margin-left: 55px;
+}
+#btn_p1 a{
+	float: left;
+	height: 42px;
+	width: 180px;
+	margin-left: 55px;
+}
+#btn_p1 a:hover{
+	background-image: url(../images/menu_h.png);
+	background-position: -55px -36px;
+	float: left;
+	height: 42px;
+	width: 180px;	
+}
+#btn_p2 a{
+	float: left;
+	height: 42px;
+	width: 180px;
+	margin-top: 2px;
+	margin-left: 55px;
+}
+#btn_p2 a:hover{
+	background-image: url(../images/menu_h.png);
+	background-position: -55px -80px;
+	float: left;
+	height: 42px;
+	width: 180px;	
+}
+#btn_p3 a{
+	float: left;
+	height: 42px;
+	width: 180px;
+	margin-top: 2px;
+	margin-left: 55px;
+}
+#btn_p3 a:hover{
+	background-image: url(../images/menu_h.png);
+	background-position: -55px -124px;
+	float: left;
+	height: 42px;
+	width: 180px;	
+}
+#btn_p4 a{
+	float: left;
+	height: 42px;
+	width: 180px;
+	margin-top: 2px;
+	margin-left: 55px;
+}
+#btn_p4 a:hover{
+	background-image: url(../images/menu_h.png);
+	background-position: -55px -168px;
+	float: left;
+	height: 42px;
+	width: 180px;	
+}
+/*下方改版活動選單*/
+#copyrights{
+	background-image: url(../images/copyrights.png);
+	background-repeat:no-repeat;
+	display:block;
+	height: 72px;/*73px*/
+	width: 2000px;
+	margin-top: 600px;/*394px*/
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: -500px;
+	position: absolute;
+	z-index: 15;
+	bottom: 0px;
+	background-color:#000;/*新增下方底色*/
+}
+/*#pmisafuckingpieceofshit a{
+	float: right;
+	height: 67px;
+	width: 160px;
+	position: absolute;
+	right: 550px;
+	bottom: 5px;
+}*/
+
+/*stage*/
+#stage{
+	height: 100%;
+	width: 2000px;
+	margin-left: -1000px;
+	position: absolute;
+	left: 50%;
+}
+#zoom{
+	height: 100%;
+	width: 8000px;
+	position: relative;	
+	min-height:600px;
+}
+#home{	/*background-image:url(http://pili.zealotdigital.com.tw/front/images/home.jpg);*/
+	background-image:url(../images/home.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 100%;
+	min-height:600px;
+	width: 2000px;	
+}
+#p1{	/*background-image:url(http://pili.zealotdigital.com.tw/front/images/p1.jpg);*/
+	background-image: url(../images/p1.jpg);
+	float: left;
+	height: 100%;
+	width: 2000px;
+	margin-top: 1000px;
+	margin-left: -2000px;
+	background-color: #000;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+}
+
+
+#p2{
+	/*background-image:url(http://pili.zealotdigital.com.tw/front/images/p2.jpg);*/
+	background-image: url(../images/p2.jpg);
+	float: left;
+	height: 100%;
+	width: 2000px;
+	margin-top: 2000px;
+	margin-left: -2000px;
+	background-color: #000;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+}
+
+#p3{	/*background-image:url(http://pili.zealotdigital.com.tw/front/images/p3.jpg);*/
+	background-image: url(../images/p3.jpg);
+	float: left;
+	height: 100%;
+	width: 2000px;
+	margin-top: 3000px;
+	margin-left: -2000px;
+	background-color: #000;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+}
+#p4{	/*background-image:url(http://pili.zealotdigital.com.tw/front/images/p4.jpg);*/
+	background-image: url(../images/p4.jpg);
+	float: left;
+	height: 100%;
+	width: 2000px;
+	margin-top: 4000px;
+	margin-left: -2000px;
+	background-color: #000;
+	background-repeat: no-repeat;
+	padding-top: 0px; /*文字欄到頂部距離*/
+}
+#p5{	/*background-image:url(http://pili.zealotdigital.com.tw/front/images/p5.jpg);*/
+	background-image: url(../images/p5.jpg);
+	float: left;
+	height: 100%;
+	width: 2000px;
+	margin-top: 5000px;
+	margin-left: -2000px;
+	background-color: #000;
+	background-repeat: no-repeat;
+	padding-top: 0px; 
+}
+/*add*/
+#logo2{
+	float: left;
+	height: 180px;
+	width: 470px;
+	margin-left: 800px;
+	margin-top: 110px;
+	display: block;
+}
+#index a{
+	float: left;
+	height: 180px;
+	width: 350px;
+}
+#apply a{
+	float: left;
+	height: 30px;
+	width: 100px;
+	margin-top: 50px;
+}
+#down a{
+	float: left;
+	height: 30px;
+	width: 100px;
+}
+#btn_all{
+	height: 55px; 
+	width: 1150px;
+	margin:0 auto;
+	margin-right: auto;
+	margin-left: -90px;
+	margin-top: 610px;
+	position: absolute;
+	z-index: 100;
+	/*bottom: 66px;*/
+}
+#btn_1 a{
+	background-image: url(../images/btn_all.png);
+	background-position: 0px 0px;
+	float: left;
+	height: 55px;
+	width: 85px;/*118px*/
+	/*margin-left: 10px;*/
+}
+#btn_1 a:hover{
+	background-position: 0px -54px;
+}
+#btn_2 a{
+	background-image: url(../images/btn_all.png);
+	background-position: -85px 0px; 
+	float: left;
+	height: 55px;
+	width: 223px;/*180px*/
+}
+#btn_2 a:hover{
+	background-position: -85px -54px;
+}
+#btn_3 a{
+	background-image: url(../images/btn_all.png);
+	background-position: -308px 0px;
+	float: left;
+	height: 55px;
+	width: 204px;	
+
+}
+#btn_3 a:hover{
+	background-position: -308px -54px;
+}
+#btn_4 a{
+	background-image: url(../images/btn_all.png);
+	background-position: -512px 0px;
+	float: left;
+	height: 55px;
+	width: 204px;	
+	/*margin-left: 10px;*/
+}
+#btn_4 a:hover{
+	background-position: -512px -54px;
+}
+#btn_5 a{
+	background-image: url(../images/btn_all.png);
+	background-position: -716px 0px;
+	float: left;
+	height: 55px;
+	width: 203px;	
+}
+#btn_5 a:hover{
+	background-position: -716px -54px;
+}
+#btn_6 a{
+	background-image: url(../images/btn_all.png);
+	background-position: -919px 0px;
+	float: left;
+	height: 55px;
+	width: 223px;	
+}
+#btn_6 a:hover{
+	background-position: -919px -54px;
+}
+#extend{
+	height: 1200px;
+	width: 1000px;
+}
+
+#extend2{
+	padding-left:200px;
+	height:2850px;
+	width: 1000px;
+}
+#extend3{	
+	height:2300px;
+	width: 1000px;
+	
+}
+#extend4{
+	padding-left:180px;
+	height:960px;
+	width: 1000px;	
+}
+#extend5{	
+	height:1540px; 
+	width: 1000px;
+	
+}
+
+/*#swf_fix{
+	display: block;
+	height: 800px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;	
+}
+#swf_fix2{
+	height: 360px;
+	width: 200px;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 700px;
+	display: block;
+}
+*/
+#blank{
+	float: left;
+	height: 30px;
+	width: 1000px;
+	display: block;
+}
+/*add end*/
