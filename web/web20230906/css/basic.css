@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap");
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a,
+img {
+  outline: none; /* for Firefox */
+  hlbr: expression(this.onFocus=this.blur()); /* for IE */
+}
+input,
+textarea {
+  outline: none;
+} /*消除chrome黃色框*/
+textarea {
+  resize: none;
+} /*不要縮放*/
+img,
+div {
+  border: 0px;
+}
+a:link {
+  color: #ff8400;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #ff8400;
+}
+a:hover {
+  text-decoration: none;
+  color: #d23100;
+}
+a:active {
+  text-decoration: none;
+  color: #ff8400;
+}
+html {
+  font-size: 75%;
+}
+body {
+  font-size: 1rem;
+  word-wrap: break-word;
+  font-family: "Noto Sans SC", sans-serif;
+  /*font-family:Arial,"微軟正黑體", Helvetica, sans-serif;*/
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.tas {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}

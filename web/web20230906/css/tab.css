@@ -1,0 +1,223 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.abgne_tab {
+  clear: left;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  overflow: auto;
+}
+.abgne_tab::-webkit-scrollbar {
+  width: 0.4em;
+}
+.abgne_tab::-webkit-scrollbar-button {
+  background: #483016;
+}
+.abgne_tab::-webkit-scrollbar-track-piece {
+  background: #403222;
+}
+
+.abgne_tab::-webkit-scrollbar-corner {
+  border: 1px solid red;
+}
+.abgne_tab::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.abgne_tab::-webkit-scrollbar-thumb {
+  background-color: #82663f;
+  border: 1px solid #443724;
+}
+.abgne_tab .tab_content {
+  padding: 20px;
+}
+.abgne_tab .tab_content h2 {
+  margin: 0 0 20px;
+}
+.abgne_tab2 {
+  clear: left;
+  width: 95%;
+  margin: 0 auto;
+}
+.abgne_tab3 {
+  clear: left;
+  width: 95%;
+  margin: 0 auto;
+}
+ul.tabs {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+ul.tabs li {
+  width: 24.5%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.3em;
+  margin: 0 0.2%;
+  overflow: hidden;
+  padding: 8px;
+}
+ul.tabs li img {
+  width: 100%;
+}
+ul.tabs li a {
+  font-size: 2em;
+  display: block;
+  text-decoration: none;
+  font-family: Arial, "微軟正黑體", Helvetica, sans-serif;
+}
+ul.tabs li a:hover {
+  /* transform: scale(1.02); */
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  filter: brightness(1.3);
+}
+ul.tabs li.active {
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  filter: brightness(1.3);
+  background: rgb(80, 20, 30);
+}
+/*  */
+ul.tabss {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  /* flex-wrap: wrap; */
+}
+ul.tabss li {
+  width: 24.5%;
+  text-align: center;
+  background: rgba(136, 0, 0, 0.8);
+  border-radius: 0.3em;
+  margin: 0 0.2%;
+  overflow: hidden;
+  padding: 8px;
+}
+ul.tabss li img {
+  width: 100%;
+}
+ul.tabss li a {
+  display: block;
+
+  text-decoration: none;
+}
+ul.tabss li a:hover {
+  /* transform: scale(1.02); */
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  filter: brightness(1.3);
+}
+ul.tabss li.active {
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  filter: brightness(1.3);
+  background: rgb(255, 64, 0);
+}
+/*  */
+/*  */
+ul.tabsss {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+  /* flex-wrap: wrap; */
+}
+ul.tabsss li {
+  width: 19.5%;
+  text-align: center;
+  background: rgba(136, 0, 0, 0.8);
+  border-radius: 0.3em;
+  margin: 0 0.2%;
+  overflow: hidden;
+  padding: 8px;
+}
+ul.tabsss li img {
+  width: 100%;
+}
+ul.tabsss li a {
+  display: block;
+
+  text-decoration: none;
+}
+ul.tabsss li a:hover {
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  filter: brightness(1.3);
+}
+ul.tabsss li.active {
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  filter: brightness(1.3);
+  background: rgb(255, 64, 0);
+}
+/*  */
+div.tab_container {
+  color: #ffe9d0;
+  clear: left;
+  width: 100%;
+  border-top: none;
+}
+.tabmin {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  font-family: Arial, "微軟正黑體", Helvetica, sans-serif;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .tabmin {
+    width: 100%;
+  }
+ ul.tabs li {
+  width: 24.5%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.3em;
+  margin: 0 0.1%;
+  overflow: hidden;
+  padding: 2px;
+}
+}
+
+@media only screen and (max-width: 540px) {
+ .abgne_tab {
+  clear: left;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  overflow: auto;
+}
+  ul.tabs li {
+  padding:0px;
+  font-size: 0.9em;
+  margin: 0 0.2%;
+	}
+}
+	
+@media only screen and (max-width: 500px) {
+  .abgne_tab .tab_content {
+    padding: 0px;
+  }
+  ul.tabs li a {
+  font-size: 1em;
+}
+}

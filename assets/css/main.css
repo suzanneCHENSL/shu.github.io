@@ -273,6 +273,15 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.R{
+			font-size: 0.9em;
+			color: #B6E2F3;
+		}
+		.RW{
+			font-size: 0.9em;
+			color:#c3c3c3;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			.container {
@@ -2464,8 +2473,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #86badc;/*49bf9d*/
+			color: #86badc !important;/*49bf9d*/
 		}
 
 		input[type="submit"]:active,
@@ -2517,8 +2526,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color:#86badc ;/*#49bf9d*/
+			border-color:#86badc ;/*#49bf9d*/
 			color: #ffffff !important;
 		}
 
@@ -2526,8 +2535,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color:#77c9df;/*#5cc6a7*/
+				border-color:#77c9df ;/*#5cc6a7*/
 			}
 
 			input[type="submit"].primary:active,
@@ -2568,7 +2577,7 @@ input, select, textarea {
 
 		.work-item p {
 			font-size: 0.8em;
-			line-height: 1.5em;
+			line-height: 1.2em;
 			margin: 0;
 		}
 
@@ -2776,7 +2785,7 @@ input, select, textarea {
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
-		padding-bottom: 3em;
+		padding-bottom: 3em; 
 	}
 
 		.poptrox-popup .loader {
@@ -3217,5 +3226,6 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+		
 
 	}
